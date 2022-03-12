@@ -1,0 +1,14 @@
+{
+  "name": "@tsnp/ongit",
+  "version": "0.1.0",
+  "description": "Wake up the browser in the terminal and open the git repository of the current/specified folder",
+  "bin": "ongit.js",
+  "keywords": [
+    "git",
+    "browser",
+    "ongit",
+    "tsnp"
+  ],
+  "author": "JarryChung",
+  "license": "MIT"
+}
