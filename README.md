@@ -15,6 +15,6 @@ npm install -g @tsnp/ongit
 
 ## Error Code
 
-**-1**: Maybe this folder is not a git project.
-**-2**: The git project does not have a origin address set.
-**-3**: The origin address may be illegal or the program has a bug, please create issue [here](https://github.com/JarryChung/Ongit/issues).
+- **-1**: Maybe this folder is not a git project.
+- **-2**: The git project does not have a origin address set.
+- **-3**: The origin address may be illegal or the program has a bug, please create issue [here](https://github.com/JarryChung/Ongit/issues).
