@@ -29,8 +29,10 @@ const getTarget = (gitUrl) => {
     process.exit(-3);
   }
   let target = line1.split('.git')[0];
-  if (target.indexOf('git@')) {
+  if (target.indexOf('git@') >= 0) {
     target = `https://${target.split('git@')[1].replace(':', '/')}`;
+  } else {
+    target = target.split('\t')[1];
   }
   return target;
 };
